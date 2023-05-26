@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+
+      <!-- Navbar horizontal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PORTAFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/html/presentacion.html">PRESENTACIÓN <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mis datos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/html/sobremi.html">SOBRE MI</a>
+                <a class="dropdown-item" href="/html/portafolio.html">PORTAFOLIO</a>
+                <a class="dropdown-item" href="/html/educacion.html">EDUCACIÓN</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/html/skills.html">SKILLS</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+
+    <!-- Contenido principal -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-2"></div>
+
+            <div class="col-8">
+                <h3 class="aqua" style="margin-top: 2%;"><b>EDUCACIÓN</b></h3>
+                <hr>
+
+                <div class="row">
+                    <div class="col-8">
+                        <h4><b>Android</b></h4>
+                        <div class="progress-container">
+                            <progress value="100" max="100"></progress>
+                            <span class="progress-text">100% Completado</span>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <p class="aquamarine">Marzo 2022</p>
+                    </div>
+                </div>
+                <h6 class="text-color-grey">Programación de Android desde cero con Java</h6>
+                <p class="text-color-grey">Curso de udemy +40 hs.</p>
+                <button class="btn btn-cv mb-3" onclick="openCertificado()">Certificado</button><br><br>
+
+                <div class="row">
+                    <div class="col-8">
+                        <h4><b>Angular</b></h4>
+                        <div class="progress-container">
+                            <progress value="56" max="100"></progress>
+                            <span class="progress-text">56% Completado</span>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <p class="aquamarine">Febrero 2023</p>
+                    </div>
+                </div>
+                <h6 class="text-color-grey">Angular: De cero a experto</h6>
+                <p class="text-color-grey">Curso de udemy 42,5 hs.</p>
+           
+
+                <div class="row">
+                    <div class="col-8">
+                        <h4><b>React Native</b></h4>
+                        <div class="progress-container">
+                            <progress value="10" max="100"></progress>
+                            <span class="progress-text">10% Completado</span>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <p class="aquamarine">Junio 2023</p>
+                    </div>
+                </div>
+                <h6 class="text-color-grey">React Native: Aplicaciones nativas para IOS y Android</h6>
+                <p class="text-color-grey">Curso de udemy 43,5 hs.</p>
+                
+
+                <div class="row">
+                    <div class="col-8">
+                        <h4><b>Tecnicatura universitaria en programacion</b></h4>
+                        <div class="progress-container">
+                            <progress value="50" max="100"></progress>
+                            <span class="progress-text">50% Completado</span>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <p class="aquamarine">Marzo 2022</p>
+                    </div>
+                </div>
+                <h6 class="text-color-grey">conocimientos y habilidades prácticas en desarrollo de software y programación</h6>
+                <p class="text-color-grey">Carrera corta Universidad Tecnologica Nacional 2 años.</p>
+               
+            </div>
+
+            <div class="col-2"></div>
+
+        </div>
+    </div>
+
+
+    <script src="/javascript.js"></script>
+
+</body>
+
+</html>
